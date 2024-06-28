@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(/Imagenes/fondo.jpg);
+  background-size: cover;
+}
+
+li {
+  list-style-type: none;
+}
+
+section {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.texto-banner {
+  color: #ebe5e2;
+  font-size: 45px;
+  text-align: center;
+}
+
+.subtitulos {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+}
+
+.contenido,
+.subtitulomenor,
+.texto {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitulomenor {
+  font-weight: bold;
+}
+
+.redes img {
+  height: 35px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.redes ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correoyderechos li {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  padding-left: 10%;
+}
+
+.secciones {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.bg-imagen {
+  background-image: url(https://i.ibb.co/Cb7YfSs/fondo.jpg);
+  background-size: cover;
+  max-height: 100%;
+}
+
+.carousel-control-prev {
+  color: #000000;
+}
+
+.display-5 {
+  color: white;
+}

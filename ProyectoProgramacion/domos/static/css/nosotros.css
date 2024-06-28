@@ -1,0 +1,18 @@
+.items-carrusel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.items-carrusel img {
+  width: 100%;
+  height: auto;
+  max-height: 1%;
+  object-fit: contain;
+  scroll-snap-align: center;
+}
+
+video {
+  max-height: 800px;
+  padding: 20px;
+}

@@ -1,0 +1,31 @@
+.imggaleria {
+  padding-bottom: 30px;
+  height: 320;
+}
+
+.imagen-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgb(141, 175, 204);
+  color: white;
+  padding: 5px;
+  display: none;
+}
+
+.imagen-tooltip:hover .tooltip {
+  display: block;
+}
+
+.reservap {
+  background-color: rgba(62, 128, 128, 0.76);
+  padding-bottom: 40px;
+}
+
+.form-label,
+.form-check-label {
+  color: whitesmoke;
+}
