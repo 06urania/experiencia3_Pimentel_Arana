@@ -1,0 +1,16 @@
+.form-group {
+  padding: 30px;
+}
+.form-control {
+  max-width: 50%;
+  align-items: center;
+}
+
+.botontexto {
+  color: whitesmoke;
+}
+
+.reservaa {
+  color: whitesmoke;
+  background-color: darkslategray;
+}
